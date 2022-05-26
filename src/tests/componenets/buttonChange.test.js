@@ -1,5 +1,5 @@
 import renderer, { act } from 'react-test-renderer';
-import ButtonChange from '../components/buttonChange';
+import ButtonChange from '../../components/buttonChange';
 
 test('render change button', () => {
   const buttonChange = renderer.create(<ButtonChange text="Change" />);

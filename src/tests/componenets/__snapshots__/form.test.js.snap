@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render form with proper data 1`] = `
+<div>
+  <form
+    className="form"
+  >
+    <p>
+      Name: 
+    </p>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+    />
+    <p>
+      Email: 
+    </p>
+    <input
+      name="email"
+      onChange={[Function]}
+      type="text"
+    />
+    <p>
+      Message: 
+    </p>
+    <textarea
+      name="message"
+      onChange={[Function]}
+    />
+  </form>
+</div>
+`;
+
+exports[`should render with default props 1`] = `
+<div>
+  <form
+    className="form"
+  >
+    <p>
+      Name: 
+    </p>
+    <input
+      name="name"
+      onChange={[Function]}
+      type="text"
+    />
+    <p>
+      Email: 
+    </p>
+    <input
+      name="email"
+      onChange={[Function]}
+      type="text"
+    />
+    <p>
+      Message: 
+    </p>
+    <textarea
+      name="message"
+      onChange={[Function]}
+    />
+  </form>
+</div>
+`;

@@ -1,6 +1,6 @@
 import renderer from 'react-test-renderer';
-import { LinkDataFixture } from './fixtures/LinkDataFixture';
-import CustomLink from '../components/customLink';
+import { LinkDataFixture } from '../fixtures/LinkDataFixture';
+import CustomLink from '../../components/customLink';
 
 test('render react custom link element with props', () => {
   const wrapper = renderer.create(<CustomLink {...LinkDataFixture} />);
