@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render button with default props 1`] = `
+<button
+  onClick={[Function]}
+>
+  Changed Text
+</button>
+`;
+
+exports[`render change button 1`] = `
+<button
+  onClick={[Function]}
+>
+  Change
+</button>
+`;

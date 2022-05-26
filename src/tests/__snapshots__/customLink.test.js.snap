@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render react custom link element with props 1`] = `
+<div>
+  <a
+    href="https://www.youtube.com/"
+    rel="noopener noreferrer"
+    target="_blank"
+    testID="custom-link"
+  >
+    this is a test link
+  </a>
+</div>
+`;
